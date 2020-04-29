@@ -1,0 +1,56 @@
+{
+  "name": "spotify-connect",
+  "version": "1.0.0",
+  "description": "An easier package for connect spotify with third applications",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "start:babel": "babel-node --extensions \".ts,.tsx\" src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipelamarao98/spotify-connect.git"
+  },
+  "keywords": [
+    "spotify",
+    "connect",
+    "audio",
+    "webaudio"
+  ],
+  "author": "Felipe Lamarão Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipelamarao98/spotify-connect/issues"
+  },
+  "homepage": "https://github.com/felipelamarao98/spotify-connect#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/plugin-transform-regenerator": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.6",
+    "@types/morgan": "^1.9.0",
+    "husky": "^4.2.5",
+    "jest": "^25.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
